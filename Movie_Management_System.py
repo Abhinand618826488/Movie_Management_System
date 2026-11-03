@@ -5,8 +5,8 @@ class movie:
         try:
             self.connection=mysql.connector.connect(
                 host="localhost",
-                user="arshi",
-                password="arshi",
+                user="abhi",
+                password="abhinad",
                 database="movie_db"
             )
             return self.connection
